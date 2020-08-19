@@ -1,6 +1,4 @@
 # Chatbot implementation using PyTorch, Flask
-
------
 Purpose of studying chatbot implementation and html/javascript integration is done. So that it can be used into other web applications.
 
 To check chatbot you can visit at [vishvaraj.me](http://www.vishvaraj.me)
