@@ -24,7 +24,6 @@ submitBtn.addEventListener('click', () => {
 	// add user inputs into chat area to show user
 	let temp = `<div class="out-msg">
 		<span class="my-msg">${userInput}</span>
-		<img src="static/img/jerry.jpg" class="avatar">
 	</div>`;
 
 
@@ -48,7 +47,6 @@ submitBtn.addEventListener('click', () => {
 		headers:{"Content-type":"application/json; charset=UTF-8"}}
 	).then(res => res.json()).then(function(data){
 		let temp2 = `<div class="income-msg">
-		    <img src="static/img/tom.jpeg" class="avatar">
 			<span class="msg">${data.msg}</span>
 			</div>`;
 		chatArea.insertAdjacentHTML("beforeend", temp2);
