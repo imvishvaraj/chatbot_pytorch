@@ -23,5 +23,5 @@ six==1.15.0
 soupsieve==2.0.1
 torch==1.5.1
 tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
-urllib3==1.25.10
+urllib3==1.26.5
 Werkzeug==1.0.1
